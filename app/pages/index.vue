@@ -198,7 +198,7 @@
           <p class="text-xl text-gray-600 mb-8 text-center">
             املأ البيانات وسيتم التواصل معك في أقرب وقت
           </p>
-          <form class="space-y-6" action="https://forms.obelaw.com/forms/NcEkg873" method="POST">
+          <form class="space-y-6" action="https://forms.obelaw.com/f/NcEkg873" method="POST">
             <!-- Name -->
             <div>
               <label for="name" class="block text-right text-lg font-bold text-gray-900 mb-2">
