@@ -64,12 +64,12 @@
         <div class="mb-8">
           <p class="text-lg text-gray-600 mb-4">هل لديك أي استفسار؟</p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://wa.me/+201102540657" target="_blank"
+            <a href="https://wa.me/+201289550398" target="_blank"
               class="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white text-lg font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition">
               <span>💬</span>
               <span>تواصل على واتساب</span>
             </a>
-            <a href="tel:+201102540657"
+            <a href="tel:+201289550398"
               class="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-lg font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition">
               <span>📱</span>
               <span>اتصل بنا</span>
