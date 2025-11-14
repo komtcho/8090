@@ -15,7 +15,8 @@
           اطلب دلوقتي جهاز الألعاب الريترو الأفضل!
         </p>
         <div class="bg-white rounded-3xl shadow-2xl p-8 mb-8">
-          <img src="https://console8090.com/cdn/shop/files/r36s_retro_game_console.webp" alt="R36S Console" class="w-full max-w-md mx-auto rounded-xl mb-6">
+          <img src="https://console8090.com/cdn/shop/files/r36s_retro_game_console.webp" alt="R36S Console"
+            class="w-full max-w-md mx-auto rounded-xl mb-6">
         </div>
       </div>
     </section>
@@ -24,23 +25,27 @@
     <section id="buy" class="py-12 px-4 bg-white">
       <div class="max-w-6xl mx-auto">
         <!-- Box 1 - Single Console -->
-        <div class="bg-gradient-to-br from-yellow-100 to-orange-100 rounded-3xl shadow-2xl p-8 mb-8 border-4 border-yellow-400">
+        <div
+          class="bg-gradient-to-br from-yellow-100 to-orange-100 rounded-3xl shadow-2xl p-8 mb-8 border-4 border-yellow-400">
           <div class="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <img src="https://console8090.com/cdn/shop/files/r36s_retro_game_console.webp" alt="R36S White" class="w-full rounded-2xl shadow-xl">
+              <img src="https://console8090.com/cdn/shop/files/r36s_retro_game_console.webp" alt="R36S White"
+                class="w-full rounded-2xl shadow-xl">
             </div>
             <div class="text-center md:text-right">
               <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">
                 جهاز R36S الأبيض
               </h2>
               <p class="text-xl text-gray-700 mb-6 leading-relaxed">
-                اطلب جهاز R36S بتصميم الأبيض الأنيق، شاشة IPS عالية الجودة، آلاف الألعاب الكلاسيكية، بطارية تدوم لساعات طويلة. والشحن مجانًا!
+                اطلب جهاز R36S بتصميم الأبيض الأنيق، شاشة IPS عالية الجودة، آلاف الألعاب الكلاسيكية، بطارية تدوم لساعات
+                طويلة. والشحن مجانًا!
               </p>
               <div class="flex items-center justify-center md:justify-end gap-4 mb-6">
                 <span class="text-3xl text-gray-400 line-through font-bold">3499 جنيه</span>
                 <span class="text-5xl font-extrabold text-red-600">2499 جنيه</span>
               </div>
-              <a href="#order-form" class="inline-block bg-green-500 hover:bg-green-600 text-white text-2xl font-bold py-4 px-12 rounded-full shadow-lg hover:shadow-2xl transform hover:scale-105 transition">
+              <a href="#order-form"
+                class="inline-block bg-green-500 hover:bg-green-600 text-white text-2xl font-bold py-4 px-12 rounded-full shadow-lg hover:shadow-2xl transform hover:scale-105 transition">
                 اطلب الآن 📱
               </a>
             </div>
@@ -48,23 +53,28 @@
         </div>
 
         <!-- Box 2 - Black Console -->
-        <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl shadow-2xl p-8 mb-8 border-4 border-gray-600">
+        <div
+          class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl shadow-2xl p-8 mb-8 border-4 border-gray-600">
           <div class="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <img src="https://console8090.com/cdn/shop/files/r36s-retro-handheld-game-console-in-black_132cc74c-8c5b-415f-8dde-bc0eee1115fb.png" alt="R36S Black" class="w-full rounded-2xl shadow-xl">
+              <img
+                src="https://console8090.com/cdn/shop/files/r36s-retro-handheld-game-console-in-black_132cc74c-8c5b-415f-8dde-bc0eee1115fb.png"
+                alt="R36S Black" class="w-full rounded-2xl shadow-xl">
             </div>
             <div class="text-center md:text-right">
               <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-4">
                 جهاز R36S الأسود
               </h2>
               <p class="text-xl text-gray-200 mb-6 leading-relaxed">
-                اطلب جهاز R36S بتصميم الأسود الكلاسيكي، تجربة ألعاب ريترو مذهلة، شاشة واضحة، مريح في الاستخدام لساعات طويلة. والشحن مجانًا!
+                اطلب جهاز R36S بتصميم الأسود الكلاسيكي، تجربة ألعاب ريترو مذهلة، شاشة واضحة، مريح في الاستخدام لساعات
+                طويلة. والشحن مجانًا!
               </p>
               <div class="flex items-center justify-center md:justify-end gap-4 mb-6">
                 <span class="text-3xl text-gray-400 line-through font-bold">3499 جنيه</span>
                 <span class="text-5xl font-extrabold text-yellow-400">2499 جنيه</span>
               </div>
-              <a href="#order-form" class="inline-block bg-green-500 hover:bg-green-600 text-white text-2xl font-bold py-4 px-12 rounded-full shadow-lg hover:shadow-2xl transform hover:scale-105 transition">
+              <a href="#order-form"
+                class="inline-block bg-green-500 hover:bg-green-600 text-white text-2xl font-bold py-4 px-12 rounded-full shadow-lg hover:shadow-2xl transform hover:scale-105 transition">
                 اطلب الآن 📱
               </a>
             </div>
@@ -72,27 +82,34 @@
         </div>
 
         <!-- Box 3 - Bundle Offer -->
-        <div class="bg-gradient-to-br from-red-100 to-pink-100 rounded-3xl shadow-2xl p-8 border-4 border-red-400 relative overflow-hidden">
-          <div class="absolute top-4 left-4 bg-red-600 text-white px-6 py-2 rounded-full font-bold text-xl transform -rotate-12 shadow-lg">
+        <div
+          class="bg-gradient-to-br from-red-100 to-pink-100 rounded-3xl shadow-2xl p-8 border-4 border-red-400 relative overflow-hidden">
+          <div
+            class="absolute top-4 left-4 bg-red-600 text-white px-6 py-2 rounded-full font-bold text-xl transform -rotate-12 shadow-lg">
             عرض خاص! 🎁
           </div>
           <div class="grid md:grid-cols-2 gap-8 items-center pt-8">
             <div class="flex gap-4 justify-center">
-              <img src="https://console8090.com/cdn/shop/files/r36s_retro_game_console.webp" alt="R36S Console Bundle" class="w-1/2 rounded-2xl shadow-xl">
-              <img src="https://console8090.com/cdn/shop/files/r36s-retro-handheld-game-console-in-black_132cc74c-8c5b-415f-8dde-bc0eee1115fb.png" alt="R36S Console Bundle" class="w-1/2 rounded-2xl shadow-xl">
+              <img src="https://console8090.com/cdn/shop/files/r36s_retro_game_console.webp" alt="R36S Console Bundle"
+                class="w-1/2 rounded-2xl shadow-xl">
+              <img
+                src="https://console8090.com/cdn/shop/files/r36s-retro-handheld-game-console-in-black_132cc74c-8c5b-415f-8dde-bc0eee1115fb.png"
+                alt="R36S Console Bundle" class="w-1/2 rounded-2xl shadow-xl">
             </div>
             <div class="text-center md:text-right">
               <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">
                 بوكس الـ 2 جهاز R36S
               </h2>
               <p class="text-xl text-gray-700 mb-6 leading-relaxed">
-                اطلب بوكس الـ 2 جهاز من R36S، جهاز أبيض + جهاز أسود. وهتاخد كارت ذاكرة 64 جيجا هدية! مثالي للأصدقاء والعائلة. والشحن مجانًا.
+                اطلب بوكس الـ 2 جهاز من R36S، جهاز أبيض + جهاز أسود. وهتاخد كارت ذاكرة 64 جيجا هدية! مثالي للأصدقاء
+                والعائلة. والشحن مجانًا.
               </p>
               <div class="flex items-center justify-center md:justify-end gap-4 mb-6">
                 <span class="text-3xl text-gray-400 line-through font-bold">6998 جنيه</span>
                 <span class="text-5xl font-extrabold text-red-600">4499 جنيه</span>
               </div>
-              <a href="#order-form" class="inline-block bg-green-500 hover:bg-green-600 text-white text-2xl font-bold py-4 px-12 rounded-full shadow-lg hover:shadow-2xl transform hover:scale-105 transition">
+              <a href="#order-form"
+                class="inline-block bg-green-500 hover:bg-green-600 text-white text-2xl font-bold py-4 px-12 rounded-full shadow-lg hover:shadow-2xl transform hover:scale-105 transition">
                 اطلب الآن 📱
               </a>
             </div>
@@ -125,12 +142,14 @@
           </div>
           <div class="bg-white p-6 rounded-2xl shadow-lg">
             <div class="text-yellow-400 text-3xl mb-3">⭐⭐⭐⭐⭐</div>
-            <p class="text-gray-700 mb-4 text-lg">"البطارية تدوم طويل والجهاز مريح جداً. اشتريت اثنين واحد لي وواحد لأخويا!"</p>
+            <p class="text-gray-700 mb-4 text-lg">"البطارية تدوم طويل والجهاز مريح جداً. اشتريت اثنين واحد لي وواحد
+              لأخويا!"</p>
             <p class="font-bold text-gray-900">- محمود علي</p>
           </div>
           <div class="bg-white p-6 rounded-2xl shadow-lg">
             <div class="text-yellow-400 text-3xl mb-3">⭐⭐⭐⭐⭐</div>
-            <p class="text-gray-700 mb-4 text-lg">"أفضل استثمار! فيه آلاف الألعاب القديمة اللي كنت بحبها. ذكريات جميلة."</p>
+            <p class="text-gray-700 mb-4 text-lg">"أفضل استثمار! فيه آلاف الألعاب القديمة اللي كنت بحبها. ذكريات جميلة."
+            </p>
             <p class="font-bold text-gray-900">- عمرو حسن</p>
           </div>
         </div>
@@ -146,7 +165,8 @@
         <div class="space-y-6">
           <div class="bg-gradient-to-r from-yellow-50 to-orange-50 p-6 rounded-xl shadow-md">
             <h3 class="text-xl font-bold text-gray-900 mb-2">كم عدد الألعاب الموجودة على الجهاز؟</h3>
-            <p class="text-gray-700 text-lg">الجهاز يأتي مع آلاف الألعاب الكلاسيكية من أنظمة مختلفة، ويمكنك إضافة المزيد عبر كارت الذاكرة.</p>
+            <p class="text-gray-700 text-lg">الجهاز يأتي مع آلاف الألعاب الكلاسيكية من أنظمة مختلفة، ويمكنك إضافة المزيد
+              عبر كارت الذاكرة.</p>
           </div>
           <div class="bg-gradient-to-r from-yellow-50 to-orange-50 p-6 rounded-xl shadow-md">
             <h3 class="text-xl font-bold text-gray-900 mb-2">هل الشحن مجاني؟</h3>
@@ -178,20 +198,15 @@
           <p class="text-xl text-gray-600 mb-8 text-center">
             املأ البيانات وسيتم التواصل معك في أقرب وقت
           </p>
-          <form class="space-y-6" @submit.prevent="handleOrderSubmit">
+          <form class="space-y-6" action="https://forms.obelaw.com/forms/NcEkg873" method="POST">
             <!-- Name -->
             <div>
               <label for="name" class="block text-right text-lg font-bold text-gray-900 mb-2">
                 الاسم الكامل *
               </label>
-              <input 
-                type="text" 
-                id="name" 
-                v-model="formData.name"
-                required
+              <input type="text" id="name" name="name" v-model="formData.name" required
                 class="w-full px-4 py-3 text-right border-2 border-gray-300 rounded-lg focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition text-lg"
-                placeholder="أدخل اسمك الكامل"
-              >
+                placeholder="أدخل اسمك الكامل">
             </div>
 
             <!-- Phone -->
@@ -199,15 +214,9 @@
               <label for="phone" class="block text-right text-lg font-bold text-gray-900 mb-2">
                 رقم الموبايل *
               </label>
-              <input 
-                type="tel" 
-                id="phone" 
-                v-model="formData.phone"
-                required
-                pattern="[0-9]{11}"
+              <input type="tel" id="phone" name="phone" v-model="formData.phone" required pattern="[0-9]{11}"
                 class="w-full px-4 py-3 text-right border-2 border-gray-300 rounded-lg focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition text-lg"
-                placeholder="01xxxxxxxxx"
-              >
+                placeholder="01xxxxxxxxx">
             </div>
 
             <!-- Address -->
@@ -215,14 +224,9 @@
               <label for="address" class="block text-right text-lg font-bold text-gray-900 mb-2">
                 العنوان بالتفصيل *
               </label>
-              <textarea 
-                id="address" 
-                v-model="formData.address"
-                required
-                rows="3"
+              <textarea id="address" name="address" v-model="formData.address" required rows="3"
                 class="w-full px-4 py-3 text-right border-2 border-gray-300 rounded-lg focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition text-lg resize-none"
-                placeholder="المحافظة، المدينة، الشارع، رقم المبنى"
-              ></textarea>
+                placeholder="المحافظة، المدينة، الشارع، رقم المبنى"></textarea>
             </div>
 
             <!-- City/Governorate -->
@@ -230,12 +234,8 @@
               <label for="city" class="block text-right text-lg font-bold text-gray-900 mb-2">
                 المحافظة *
               </label>
-              <select 
-                id="city" 
-                v-model="formData.city"
-                required
-                class="w-full px-4 py-3 text-right border-2 border-gray-300 rounded-lg focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition text-lg"
-              >
+              <select id="city" name="city" v-model="formData.city" required
+                class="w-full px-4 py-3 text-right border-2 border-gray-300 rounded-lg focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition text-lg">
                 <option value="">اختر المحافظة</option>
                 <option value="القاهرة">القاهرة</option>
                 <option value="الجيزة">الجيزة</option>
@@ -272,13 +272,8 @@
               <label for="product" class="block text-right text-lg font-bold text-gray-900 mb-2">
                 اختر المنتج *
               </label>
-              <select 
-                id="product" 
-                v-model="formData.product"
-                required
-                @change="updatePrice"
-                class="w-full px-4 py-3 text-right border-2 border-gray-300 rounded-lg focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition text-lg"
-              >
+              <select id="product" name="product" v-model="formData.product" required @change="updatePrice"
+                class="w-full px-4 py-3 text-right border-2 border-gray-300 rounded-lg focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition text-lg">
                 <option value="">اختر المنتج</option>
                 <option value="white">جهاز R36S الأبيض - 2499 جنيه</option>
                 <option value="black">جهاز R36S الأسود - 2499 جنيه</option>
@@ -292,20 +287,15 @@
                 الكمية *
               </label>
               <div class="flex items-center justify-end gap-4">
-                <button type="button" @click="decreaseQuantity" class="bg-gray-200 hover:bg-gray-300 text-gray-900 font-bold text-2xl w-12 h-12 rounded-lg transition">
+                <button type="button" @click="decreaseQuantity"
+                  class="bg-gray-200 hover:bg-gray-300 text-gray-900 font-bold text-2xl w-12 h-12 rounded-lg transition">
                   -
                 </button>
-                <input 
-                  type="number" 
-                  id="quantity" 
-                  v-model.number="formData.quantity"
-                  min="1" 
-                  max="10"
-                  required
+                <input type="number" id="quantity" name="quantity" v-model.number="formData.quantity" min="1" max="10" required
                   @input="updatePrice"
-                  class="w-20 px-4 py-3 text-center border-2 border-gray-300 rounded-lg focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition text-xl font-bold"
-                >
-                <button type="button" @click="increaseQuantity" class="bg-gray-200 hover:bg-gray-300 text-gray-900 font-bold text-2xl w-12 h-12 rounded-lg transition">
+                  class="w-20 px-4 py-3 text-center border-2 border-gray-300 rounded-lg focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition text-xl font-bold">
+                <button type="button" @click="increaseQuantity"
+                  class="bg-gray-200 hover:bg-gray-300 text-gray-900 font-bold text-2xl w-12 h-12 rounded-lg transition">
                   +
                 </button>
               </div>
@@ -325,20 +315,17 @@
               <label for="notes" class="block text-right text-lg font-bold text-gray-900 mb-2">
                 ملاحظات إضافية (اختياري)
               </label>
-              <textarea 
-                id="notes" 
-                v-model="formData.notes"
-                rows="2"
+              <textarea id="notes" name="notes" v-model="formData.notes" rows="2"
                 class="w-full px-4 py-3 text-right border-2 border-gray-300 rounded-lg focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition text-lg resize-none"
-                placeholder="أي ملاحظات أو طلبات خاصة"
-              ></textarea>
+                placeholder="أي ملاحظات أو طلبات خاصة"></textarea>
             </div>
 
+            <!-- Hidden field for total price -->
+            <input type="hidden" name="total_price" :value="totalPrice">
+
             <!-- Submit Button -->
-            <button 
-              type="submit"
-              class="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white text-2xl font-extrabold py-5 rounded-full shadow-xl hover:shadow-2xl transform hover:scale-105 transition"
-            >
+            <button type="submit"
+              class="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white text-2xl font-extrabold py-5 rounded-full shadow-xl hover:shadow-2xl transform hover:scale-105 transition">
               ✅ تأكيد الطلب - الدفع عند الاستلام
             </button>
 
@@ -357,13 +344,15 @@
           تواصل معنا
         </h2>
         <div class="grid md:grid-cols-2 gap-6">
-          <a href="https://www.instagram.com/" target="_blank" class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition transform hover:scale-105 text-center">
+          <a href="https://www.instagram.com/" target="_blank"
+            class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition transform hover:scale-105 text-center">
             <div class="text-5xl mb-4">📸</div>
             <h3 class="text-xl font-bold text-gray-900 mb-2">انستجرام</h3>
             <p class="text-gray-600 mb-2">اضغط هنا للتواصل على انستجرام</p>
             <p class="text-pink-600 font-bold text-lg">Instagram</p>
           </a>
-          <a href="https://www.facebook.com/" target="_blank" class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition transform hover:scale-105 text-center">
+          <a href="https://www.facebook.com/" target="_blank"
+            class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition transform hover:scale-105 text-center">
             <div class="text-5xl mb-4">👍</div>
             <h3 class="text-xl font-bold text-gray-900 mb-2">فيسبوك</h3>
             <p class="text-gray-600 mb-2">اضغط هنا للتواصل على فيسبوك</p>
@@ -388,81 +377,56 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+  import { ref, computed } from 'vue'
 
-const formData = ref({
-  name: '',
-  phone: '',
-  address: '',
-  city: '',
-  product: '',
-  quantity: 1,
-  notes: ''
-})
+  const formData = ref({
+    name: '',
+    phone: '',
+    address: '',
+    city: '',
+    product: '',
+    quantity: 1,
+    notes: ''
+  })
 
-const productPrices = {
-  white: 2499,
-  black: 2499,
-  bundle: 4499
-}
-
-const productNames = {
-  white: 'جهاز R36S الأبيض - 2499 جنيه',
-  black: 'جهاز R36S الأسود - 2499 جنيه',
-  bundle: 'بوكس الـ 2 جهاز (أبيض + أسود + هدية) - 4499 جنيه'
-}
-
-const totalPrice = computed(() => {
-  if (!formData.value.product) return '0'
-  const price = productPrices[formData.value.product]
-  const total = price * formData.value.quantity
-  return total.toLocaleString('ar-EG')
-})
-
-const updatePrice = () => {
-  // This function is now handled by the computed property
-  // but we keep it for the @change event binding
-}
-
-const increaseQuantity = () => {
-  if (formData.value.quantity < 10) {
-    formData.value.quantity++
+  const productPrices = {
+    white: 2499,
+    black: 2499,
+    bundle: 4499
   }
-}
 
-const decreaseQuantity = () => {
-  if (formData.value.quantity > 1) {
-    formData.value.quantity--
+  const productNames = {
+    white: 'جهاز R36S الأبيض - 2499 جنيه',
+    black: 'جهاز R36S الأسود - 2499 جنيه',
+    bundle: 'بوكس الـ 2 جهاز (أبيض + أسود + هدية) - 4499 جنيه'
   }
-}
 
-const handleOrderSubmit = () => {
-  // Create WhatsApp message
-  const message = `🎮 *طلب جديد - R36S*
-            
-👤 *الاسم:* ${formData.value.name}
-📱 *الموبايل:* ${formData.value.phone}
-📍 *المحافظة:* ${formData.value.city}
-🏠 *العنوان:* ${formData.value.address}
+  const totalPrice = computed(() => {
+    if (!formData.value.product) return '0'
+    const price = productPrices[formData.value.product]
+    const total = price * formData.value.quantity
+    return total.toLocaleString('ar-EG')
+  })
 
-🎁 *المنتج:* ${productNames[formData.value.product]}
-📦 *الكمية:* ${formData.value.quantity}
-💰 *الإجمالي:* ${totalPrice.value} جنيه
+  const updatePrice = () => {
+    // This function is now handled by the computed property
+    // but we keep it for the @change event binding
+  }
 
-${formData.value.notes ? '📝 *ملاحظات:* ' + formData.value.notes : ''}
+  const increaseQuantity = () => {
+    if (formData.value.quantity < 10) {
+      formData.value.quantity++
+    }
+  }
 
-✅ الدفع عند الاستلام`
+  const decreaseQuantity = () => {
+    if (formData.value.quantity > 1) {
+      formData.value.quantity--
+    }
+  }
 
-  // Encode message for URL
-  const encodedMessage = encodeURIComponent(message)
-  
-  // WhatsApp number
-  const whatsappNumber = '+201102540657'
-  
-  // Open WhatsApp with the message
-  window.open(`https://wa.me/${whatsappNumber}?text=${encodedMessage}`, '_blank')
-  
-  // Redirect to thank you page
-  navigateTo('/thank-you')
-}
+  const handleOrderSubmit = (event) => {
+    // Allow native form submission to proceed
+    event.target.submit()
+  }
 </script>

@@ -64,18 +64,13 @@
         <div class="mb-8">
           <p class="text-lg text-gray-600 mb-4">هل لديك أي استفسار؟</p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href="https://wa.me/+201102540657" 
-              target="_blank"
-              class="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white text-lg font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition"
-            >
+            <a href="https://wa.me/+201102540657" target="_blank"
+              class="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white text-lg font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition">
               <span>💬</span>
               <span>تواصل على واتساب</span>
             </a>
-            <a 
-              href="tel:+201102540657"
-              class="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-lg font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition"
-            >
+            <a href="tel:+201102540657"
+              class="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-lg font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition">
               <span>📱</span>
               <span>اتصل بنا</span>
             </a>
@@ -84,10 +79,8 @@
 
         <!-- Back to Home Button -->
         <div class="pt-6 border-t-2 border-gray-200">
-          <NuxtLink 
-            to="/"
-            class="inline-block bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 text-white text-lg font-bold py-3 px-10 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition"
-          >
+          <NuxtLink to="/"
+            class="inline-block bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 text-white text-lg font-bold py-3 px-10 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition">
             🏠 العودة للصفحة الرئيسية
           </NuxtLink>
         </div>
@@ -106,37 +99,48 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+  import { ref, onMounted } from 'vue'
 
-// Generate random order number
-const orderNumber = ref('')
+  // Get submission_id from URL parameter
+  const route = useRoute()
+  const orderNumber = ref('')
 
-onMounted(() => {
-  // Generate order number based on timestamp
-  const timestamp = Date.now()
-  orderNumber.value = `R36S${timestamp.toString().slice(-8)}`
-})
+  onMounted(() => {
+    // Get submission_id from URL query parameter
+    const submissionId = route.query.submission_id_x
 
-// Set page meta
-useHead({
-  title: 'شكراً لطلبك - R36S Console',
-  meta: [
-    { name: 'robots', content: 'noindex, nofollow' }
-  ]
-})
+    if (submissionId) {
+      orderNumber.value = submissionId
+    } else {
+      // Fallback: Generate order number based on timestamp if no submission_id
+      const timestamp = Date.now()
+      orderNumber.value = `R36S${timestamp.toString().slice(-8)}`
+    }
+  })
+
+  // Set page meta
+  useHead({
+    title: 'شكراً لطلبك - R36S Console',
+    meta: [
+      { name: 'robots', content: 'noindex, nofollow' }
+    ]
+  })
 </script>
 
 <style scoped>
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-}
+  @keyframes bounce {
 
-.animate-bounce {
-  animation: bounce 1s infinite;
-}
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .animate-bounce {
+    animation: bounce 1s infinite;
+  }
 </style>
