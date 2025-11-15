@@ -21,7 +21,7 @@ export default defineNuxtConfig({
         { property: 'og:type', content: 'product' },
         { property: 'og:title', content: 'R36S جهاز الألعاب الريترو - 15000+ لعبة كلاسيكية' },
         { property: 'og:description', content: 'استرجع ذكريات الطفولة مع جهاز R36S! خصم 43% + شحن مجاني. 1999 جنيه فقط بدلاً من 3499 جنيه' },
-        { property: 'og:image', content: '/images/r36s/r36s-white.webp' },
+        { property: 'og:image', content: '/og_image.jpg' },
         { property: 'og:url', content: 'https://console8090.com' },
         { property: 'og:site_name', content: 'CONSOLE 8090' },
         { property: 'og:locale', content: 'ar_EG' },
@@ -31,7 +31,7 @@ export default defineNuxtConfig({
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'R36S جهاز الألعاب الريترو - خصم 43%' },
         { name: 'twitter:description', content: '15000+ لعبة كلاسيكية في جهاز واحد. شحن مجاني + دفع عند الاستلام' },
-        { name: 'twitter:image', content: '/images/r36s/r36s-white.webp' }
+        { name: 'twitter:image', content: '/og_image.jpg' }
       ],
       link: [
         { rel: 'canonical', href: 'https://console8090.com' },
