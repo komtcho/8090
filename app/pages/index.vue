@@ -6,17 +6,110 @@
     </div>
 
     <!-- Hero Section -->
-    <section class="py-8 px-4 bg-gradient-to-br from-yellow-50 to-orange-50">
-      <div class="max-w-6xl mx-auto text-center">
-        <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4 leading-tight">
-          عروض مش هتتكرر من R36S
-        </h1>
-        <p class="text-2xl md:text-3xl font-bold text-orange-600 mb-6">
-          اطلب دلوقتي جهاز الألعاب الريترو الأفضل!
-        </p>
-        <div class="bg-white rounded-3xl shadow-2xl p-8 mb-8">
-          <img src="https://console8090.com/cdn/shop/files/r36s_retro_game_console.webp" alt="R36S Console"
-            class="w-full max-w-md mx-auto rounded-xl mb-6">
+    <section class="py-12 md:py-20 px-4 bg-gradient-to-br from-purple-50 via-pink-50 to-orange-50 relative overflow-hidden">
+      <!-- Background Pattern -->
+      <div class="absolute inset-0 opacity-10">
+        <div class="absolute top-10 left-10 w-72 h-72 bg-purple-400 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-10 right-10 w-96 h-96 bg-orange-400 rounded-full blur-3xl"></div>
+      </div>
+      
+      <div class="max-w-7xl mx-auto relative z-10">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <!-- Left: Product Image -->
+          <div class="order-2 md:order-1">
+            <div class="relative">
+              <div class="absolute -inset-4 bg-gradient-to-r from-red-600 to-orange-600 rounded-3xl blur-2xl opacity-20 animate-pulse"></div>
+              <div class="relative bg-white rounded-3xl shadow-2xl p-8 transform hover:scale-105 transition duration-500">
+                <img src="/images/r36s/r36s-white.webp" alt="R36S Console"
+                  class="w-full rounded-xl">
+                <!-- Floating Badge -->
+                <div class="absolute -top-4 -right-4 bg-red-600 text-white px-6 py-3 rounded-full font-extrabold text-xl shadow-xl animate-bounce">
+                  خصم 43% 🔥
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Content -->
+          <div class="order-1 md:order-2 text-center md:text-right">
+            <!-- Main Headline -->
+            <div class="mb-6">
+              <span class="inline-block bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-2 rounded-full font-bold text-sm md:text-base mb-4">
+                ✨ الأكثر مبيعاً في مصر
+              </span>
+              <h1 class="text-4xl md:text-6xl lg:text-7xl font-black text-gray-900 mb-4 leading-tight">
+                استرجع ذكريات
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-600">
+                  الطفولة
+                </span>
+              </h1>
+              <p class="text-xl md:text-2xl lg:text-3xl text-gray-700 font-bold leading-relaxed">
+                15,000+ لعبة كلاسيكية في جهاز واحد 🎮
+              </p>
+            </div>
+
+            <!-- Key Benefits -->
+            <div class="grid grid-cols-2 gap-4 mb-8">
+              <div class="bg-white/80 backdrop-blur p-4 rounded-xl shadow-lg">
+                <div class="text-3xl mb-2">🎯</div>
+                <p class="font-bold text-gray-900">لا يحتاج WiFi</p>
+              </div>
+              <div class="bg-white/80 backdrop-blur p-4 rounded-xl shadow-lg">
+                <div class="text-3xl mb-2">⚡</div>
+                <p class="font-bold text-gray-900">جاهز للعب فوراً</p>
+              </div>
+              <div class="bg-white/80 backdrop-blur p-4 rounded-xl shadow-lg">
+                <div class="text-3xl mb-2">🔋</div>
+                <p class="font-bold text-gray-900">بطارية 6 ساعات</p>
+              </div>
+              <div class="bg-white/80 backdrop-blur p-4 rounded-xl shadow-lg">
+                <div class="text-3xl mb-2">✅</div>
+                <p class="font-bold text-gray-900">ضمان 14 يوم</p>
+              </div>
+            </div>
+
+            <!-- Price -->
+            <div class="bg-white/90 backdrop-blur rounded-2xl p-6 mb-8 shadow-xl">
+              <div class="flex items-center justify-center md:justify-end gap-4 mb-4">
+                <span class="text-2xl md:text-3xl text-gray-400 line-through font-bold">{{ productPrices.original }} جنيه</span>
+                <span class="text-4xl md:text-6xl font-black text-red-600">{{ productPrices.white }} جنيه</span>
+              </div>
+              <p class="text-lg text-gray-600 font-bold">وفر {{ productPrices.original - productPrices.white }} جنيه اليوم! 💰</p>
+            </div>
+
+            <!-- CTA Buttons -->
+            <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-end">
+              <a href="#order-form"
+                class="group relative bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white text-xl md:text-2xl font-extrabold py-5 px-12 rounded-full shadow-2xl hover:shadow-3xl transform hover:scale-110 transition duration-300">
+                <span class="relative z-10">🛒 اطلب الآن</span>
+                <div class="absolute inset-0 bg-gradient-to-r from-green-400 to-green-500 rounded-full blur opacity-50 group-hover:opacity-75 transition"></div>
+              </a>
+              <a href="#buy"
+                class="bg-white hover:bg-gray-50 text-gray-900 text-xl md:text-2xl font-bold py-5 px-12 rounded-full border-2 border-gray-300 shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
+                📦 شاهد العروض
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Urgency & Social Proof Section -->
+    <section class="py-8 px-4 bg-gradient-to-r from-red-600 to-orange-600">
+      <div class="max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-3 gap-6 text-center text-white">
+          <div class="bg-white/10 backdrop-blur rounded-2xl p-6">
+            <div class="text-4xl font-black mb-2">⏰ 48</div>
+            <p class="text-lg font-bold">ساعة متبقية على العرض</p>
+          </div>
+          <div class="bg-white/10 backdrop-blur rounded-2xl p-6">
+            <div class="text-4xl font-black mb-2">📦 87</div>
+            <p class="text-lg font-bold">قطعة متبقية فقط</p>
+          </div>
+          <div class="bg-white/10 backdrop-blur rounded-2xl p-6">
+            <div class="text-4xl font-black mb-2">🔥 {{ viewersCount }}</div>
+            <p class="text-lg font-bold">شخص يشاهد الآن</p>
+          </div>
         </div>
       </div>
     </section>
@@ -29,7 +122,7 @@
           class="bg-gradient-to-br from-yellow-100 to-orange-100 rounded-3xl shadow-2xl p-8 mb-8 border-4 border-yellow-400">
           <div class="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <img src="https://console8090.com/cdn/shop/files/r36s_retro_game_console.webp" alt="R36S White"
+              <img src="/images/r36s/r36s-white.webp" alt="R36S White"
                 class="w-full rounded-2xl shadow-xl">
             </div>
             <div class="text-center md:text-right">
@@ -40,9 +133,14 @@
                 اطلب جهاز R36S بتصميم الأبيض الأنيق، شاشة IPS عالية الجودة، آلاف الألعاب الكلاسيكية، بطارية تدوم لساعات
                 طويلة. والشحن مجانًا!
               </p>
+              <div class="mb-4">
+                <span class="inline-block bg-red-600 text-white px-4 py-2 rounded-full font-bold text-lg">
+                  خصم 43% 🔥
+                </span>
+              </div>
               <div class="flex items-center justify-center md:justify-end gap-4 mb-6">
-                <span class="text-3xl text-gray-400 line-through font-bold">3499 جنيه</span>
-                <span class="text-5xl font-extrabold text-red-600">2499 جنيه</span>
+                <span class="text-3xl text-gray-400 line-through font-bold">{{ productPrices.original }} جنيه</span>
+                <span class="text-5xl font-extrabold text-red-600">{{ productPrices.white }} جنيه</span>
               </div>
               <a href="#order-form"
                 class="inline-block bg-green-500 hover:bg-green-600 text-white text-2xl font-bold py-4 px-12 rounded-full shadow-lg hover:shadow-2xl transform hover:scale-105 transition">
@@ -58,7 +156,7 @@
           <div class="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <img
-                src="https://console8090.com/cdn/shop/files/r36s-retro-handheld-game-console-in-black_132cc74c-8c5b-415f-8dde-bc0eee1115fb.png"
+                src="/images/r36s/r36s-balck.webp"
                 alt="R36S Black" class="w-full rounded-2xl shadow-xl">
             </div>
             <div class="text-center md:text-right">
@@ -69,44 +167,14 @@
                 اطلب جهاز R36S بتصميم الأسود الكلاسيكي، تجربة ألعاب ريترو مذهلة، شاشة واضحة، مريح في الاستخدام لساعات
                 طويلة. والشحن مجانًا!
               </p>
-              <div class="flex items-center justify-center md:justify-end gap-4 mb-6">
-                <span class="text-3xl text-gray-400 line-through font-bold">3499 جنيه</span>
-                <span class="text-5xl font-extrabold text-yellow-400">2499 جنيه</span>
+              <div class="mb-4">
+                <span class="inline-block bg-yellow-400 text-gray-900 px-4 py-2 rounded-full font-bold text-lg">
+                  خصم 43% 🔥
+                </span>
               </div>
-              <a href="#order-form"
-                class="inline-block bg-green-500 hover:bg-green-600 text-white text-2xl font-bold py-4 px-12 rounded-full shadow-lg hover:shadow-2xl transform hover:scale-105 transition">
-                اطلب الآن 📱
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Box 3 - Bundle Offer -->
-        <div
-          class="bg-gradient-to-br from-red-100 to-pink-100 rounded-3xl shadow-2xl p-8 border-4 border-red-400 relative overflow-hidden">
-          <div
-            class="absolute top-4 left-4 bg-red-600 text-white px-6 py-2 rounded-full font-bold text-xl transform -rotate-12 shadow-lg">
-            عرض خاص! 🎁
-          </div>
-          <div class="grid md:grid-cols-2 gap-8 items-center pt-8">
-            <div class="flex gap-4 justify-center">
-              <img src="https://console8090.com/cdn/shop/files/r36s_retro_game_console.webp" alt="R36S Console Bundle"
-                class="w-1/2 rounded-2xl shadow-xl">
-              <img
-                src="https://console8090.com/cdn/shop/files/r36s-retro-handheld-game-console-in-black_132cc74c-8c5b-415f-8dde-bc0eee1115fb.png"
-                alt="R36S Console Bundle" class="w-1/2 rounded-2xl shadow-xl">
-            </div>
-            <div class="text-center md:text-right">
-              <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">
-                بوكس الـ 2 جهاز R36S
-              </h2>
-              <p class="text-xl text-gray-700 mb-6 leading-relaxed">
-                اطلب بوكس الـ 2 جهاز من R36S، جهاز أبيض + جهاز أسود. وهتاخد كارت ذاكرة 64 جيجا هدية! مثالي للأصدقاء
-                والعائلة. والشحن مجانًا.
-              </p>
               <div class="flex items-center justify-center md:justify-end gap-4 mb-6">
-                <span class="text-3xl text-gray-400 line-through font-bold">6998 جنيه</span>
-                <span class="text-5xl font-extrabold text-red-600">4499 جنيه</span>
+                <span class="text-3xl text-gray-400 line-through font-bold">{{ productPrices.original }} جنيه</span>
+                <span class="text-5xl font-extrabold text-yellow-400">{{ productPrices.black }} جنيه</span>
               </div>
               <a href="#order-form"
                 class="inline-block bg-green-500 hover:bg-green-600 text-white text-2xl font-bold py-4 px-12 rounded-full shadow-lg hover:shadow-2xl transform hover:scale-105 transition">
@@ -275,9 +343,8 @@
               <select id="product" name="product" v-model="formData.product" required @change="updatePrice"
                 class="w-full px-4 py-3 text-right border-2 border-gray-300 rounded-lg focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition text-lg">
                 <option value="">اختر المنتج</option>
-                <option value="white">جهاز R36S الأبيض - 2499 جنيه</option>
-                <option value="black">جهاز R36S الأسود - 2499 جنيه</option>
-                <option value="bundle">بوكس الـ 2 جهاز (أبيض + أسود + هدية) - 4499 جنيه</option>
+                <option value="white">جهاز R36S الأبيض - {{ productPrices.white }} جنيه</option>
+                <option value="black">جهاز R36S الأسود - {{ productPrices.black }} جنيه</option>
               </select>
             </div>
 
@@ -291,8 +358,8 @@
                   class="bg-gray-200 hover:bg-gray-300 text-gray-900 font-bold text-2xl w-12 h-12 rounded-lg transition">
                   -
                 </button>
-                <input type="number" id="quantity" name="quantity" v-model.number="formData.quantity" min="1" max="10" required
-                  @input="updatePrice"
+                <input type="number" id="quantity" name="quantity" v-model.number="formData.quantity" min="1" max="10"
+                  required @input="updatePrice"
                   class="w-20 px-4 py-3 text-center border-2 border-gray-300 rounded-lg focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition text-xl font-bold">
                 <button type="button" @click="increaseQuantity"
                   class="bg-gray-200 hover:bg-gray-300 text-gray-900 font-bold text-2xl w-12 h-12 rounded-lg transition">
@@ -377,7 +444,7 @@
 </template>
 
 <script setup>
-  import { ref, computed } from 'vue'
+  import { ref, computed, onMounted } from 'vue'
 
   const formData = ref({
     name: '',
@@ -389,16 +456,30 @@
     notes: ''
   })
 
+  const viewersCount = ref(342)
+
   const productPrices = {
-    white: 2499,
-    black: 2499,
-    bundle: 4499
+    original: 3499,
+    white: 1999,
+    black: 1999
   }
 
+  // Generate random viewer count between 280-450
+  const updateViewersCount = () => {
+    viewersCount.value = Math.floor(Math.random() * (450 - 280 + 1)) + 280
+  }
+
+  onMounted(() => {
+    updateViewersCount()
+    // Update viewers count every 8-15 seconds
+    setInterval(() => {
+      updateViewersCount()
+    }, Math.floor(Math.random() * (15000 - 8000 + 1)) + 8000)
+  })
+
   const productNames = {
-    white: 'جهاز R36S الأبيض - 2499 جنيه',
-    black: 'جهاز R36S الأسود - 2499 جنيه',
-    bundle: 'بوكس الـ 2 جهاز (أبيض + أسود + هدية) - 4499 جنيه'
+    white: 'جهاز R36S الأبيض - 1999 جنيه',
+    black: 'جهاز R36S الأسود - 1999 جنيه'
   }
 
   const totalPrice = computed(() => {
